@@ -1479,4 +1479,28 @@ button:focus {
     grid-area: img-8;
     background-image: url("../img/gallery-8.jpg");
    }
+
+   @media screen and (max-width: 900px){
+       .image-gallery{
+            grid-template-areas: 
+            'img-1 img-1 img-2 img-2' 
+            'img-1 img-1 img-3 img-3'
+            'img-4 img-4 img-5 img-5'
+
+            'img-6 img-7 img-7 img-7'
+            'img-8 img-8 img-8 img-8';
+       }
+
+       .image-gallery a{
+           height: 20rem;
+       }
+
+       .img-1{
+           min-height: 41.5rem;
+       }
+
+       .img-6{
+           min-height: 20rem;
+       }
+   }
   /* End Img Gallery */
