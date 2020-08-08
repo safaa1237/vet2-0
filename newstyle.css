@@ -1,9 +1,12 @@
-.about-section {
+ .body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
   }
   
-
+  html {
+    box-sizing: border-box;
+  }
   
   *, *:before, *:after {
     box-sizing: inherit;
