@@ -1423,7 +1423,7 @@ nav{
   /* Start Img Gallery */
   .container-gallery{
     width: 100%;
-    max-width: 120rem;
+    max-width: 90vw;
     margin: auto;
     padding: 5rem 1.5rem 0rem;
   }
@@ -1432,7 +1432,7 @@ nav{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
       grid-template-rows: auto;
-      grid-gap: 1.5rem;
+      grid-gap: 2rem;
       grid-template-areas: 
       'img-1 img-2 img-3 img-3' 
       'img-1 img-4 img-5 img-6'
